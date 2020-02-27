@@ -1,0 +1,77 @@
+/* banner */
+
+.banner img {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+/* nav */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.project ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.project ul li {
+    float: left;
+    width: 198px;
+    height: 46px;
+    border: 1px solid #c92007;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.project ul li a {
+    color: #333;
+    display: block;
+    line-height: 46px;
+}
+
+.project ul li:hover a {
+    color: #fff;
+    background: #c92007;
+}
+
+
+/* 照明设计 */
+
+.content1,
+.content2 {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.word {
+    margin-top: 74px;
+}
+
+.word h3 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.word span {
+    font-size: 23px;
+}
+
+.word p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 37px;
+}
+
+.content2 img {
+    display: block;
+    margin-top: 59px;
+    margin-bottom: 50px;
+}

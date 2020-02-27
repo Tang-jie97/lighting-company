@@ -1,0 +1,113 @@
+/* banner */
+
+.banner img {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+/* 案例 */
+
+.select1 {
+    width: 1200px;
+    height: 170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.select1 .nav1 {
+    margin-top: 56px;
+    margin-left: 300px;
+}
+
+.select1 .nav1 li {
+    float: left;
+    width: 200px;
+    height: 47px;
+    text-align: center;
+    border: 1px solid #c92007;
+}
+
+.select1 .nav1 li a {
+    display: block;
+    color: #333;
+    line-height: 47px;
+}
+
+.select1 .nav1 li:hover a {
+    color: #fff;
+    background: #c92007;
+}
+
+.tu {
+    width: 100%;
+}
+
+.tu li {
+    float: left;
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.tu li img {
+    display: block;
+    width: 100%;
+}
+
+.tu div {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background: rgba(201, 32, 7, 0.7);
+}
+
+.tu div p {
+    padding: 45% 4% 0;
+}
+
+.tu li:hover div {
+    display: block;
+}
+
+.select2 {
+    width: 1200px;
+    height: 190px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.select2 ul {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -29px;
+    margin-top: -15px;
+}
+
+.select2 li {
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #dddddd;
+}
+
+.select2 li a {
+    color: #337ab7;
+    display: block;
+    font-size: 9px;
+    line-height: 28px;
+}
+
+.select2 li:hover a {
+    color: #fff;
+    background: #c92007;
+}

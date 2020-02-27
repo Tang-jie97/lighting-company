@@ -1,0 +1,64 @@
+/* banner */
+
+.banner img {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+
+/* 公司 */
+
+.box {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.contact {
+    width: 1200px;
+    height: 166px;
+    margin: 0 auto;
+    padding: 58px 0;
+    box-sizing: border-box;
+}
+
+.contact li {
+    float: left;
+    color: #333;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-left: 36px;
+}
+
+.contact li:first-child {
+    height: 50px;
+    font-size: 22px;
+    padding: 0;
+}
+
+.contact li:first-child p {
+    font-size: 14px;
+    color: #999;
+}
+
+.contact .li-1 {
+    width: 192px;
+}
+
+.contact .li-2 {
+    width: 280px;
+    background: url(img/icon1.png) no-repeat left center;
+}
+
+.contact .li-3 {
+    width: 135px;
+    margin-left: 127px;
+    background: url(img/icon2.png) no-repeat left center;
+}
+
+.contact .li-4 {
+    width: 186px;
+    margin-left: 127px;
+    background: url(img/icon3.png) no-repeat left center;
+}
